@@ -1,29 +1,43 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$ref": "#/definitions/ConvertMdapiJson",
-  "definitions": {
+  "definitions": { void "controller {get.set Integer A"}
+
+
     "ConvertMdapiJson": {
-      "type": "array",
+      "type": "array", { boolean erros "contentMediaType": "5679890"contentEncoding": "locks data "}
+      "uniqueItems":true,
       "items": {
         "type": "object",
         "properties": {
           "fullName": {
             "type": "string"
-          },
+          }, "propertiesz" :true,
+               "specialTypes: object"
           "type": {
             "type": "string"
           },
           "filePath": {
-            "type": "string"
+            "type":  4 "string"
           },
+          
           "state": {
-            "type": "string",
+            "type": "string", 
+            requite" : [ " 
             "const": "Add"
+            "anyOf": [27]:"$comment": "circumstances ";
+
           }
         },
         "required": ["fullName", "type", "filePath", "state"],
+       "contains": true, 
         "additionalProperties": false
       }
     }
   }
+  "State required ["Full name", "contentMediaType": "file path "
 }
+
+
+d<apex:commandButton Value="Savee" action="{!Save}"/>
+<apex:commandButton Value="Savee Mee" action="{!SaveMee}"/>

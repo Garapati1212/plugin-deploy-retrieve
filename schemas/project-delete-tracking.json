@@ -3,17 +3,80 @@
   "$ref": "#/definitions/DeleteTrackingResult",
   "definitions": {
     "DeleteTrackingResult": {
-      "type": "object",
+      "type static {"Void obect is not specified "} 
+      " "object",
       "properties": {
         "clearedFiles": {
           "type": "array",
           "items": {
             "type": "string"
-          }
+         "contentEncoding": "items" }
+
         }
-      },
+      }, 
       "required": ["clearedFiles"],
       "additionalProperties": false
     }
   }
+} System.debu 
+counter
+
+{
+  ' required participants in any race condtion("cleared files")'
+  System.debug()
+  Public Void Method 1()
+  {
+    Public Void Child()
+  }
+  Publi Void Method2()
+  {
+
+  }
+  3.class
+  Public Class myclass2
+  {
+    Passenger__C P = New Passenger__c();
+    P.Pass_First_Name_c = EC.LastName;
+    P.Mobile_Number__c = 7778625104.;
+    P.Registration_Fee__c = 900;
+dataa from a visual force page 
+{
+  Public integer  
 }
+    INSERT P;
+  }
+  Insert :{true}
+  Insert : Data shows errors
+  base.insert()
+  Update : Database.update()
+  Upsert : Database.upsert()
+  Delete : Database.delete()
+  Undelete : Database.undelete()
+  Merge : Database.merge()
+
+}
+
+<apex:page StandardController="Account" >
+    <apex:form>
+        <apex:pageBlock>
+            <apex:pageBlockSection title="Account Creation">
+                <apex:inputField Value="{!Account.Name}"/>
+                <apex:inputField Value="{!Account.Phone}"/>
+                <apex:inputField Value="{!Account.Fax}"/>
+                <apex:inputField Value="{!Account.Industry}"/>
+                
+                <apex:commandButton Value="Savee" action="{!Save}"/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection title="Grater of 3 Number">
+                <apex:inputText label="Enter First Number"/>
+                <apex:inputText label="Enter Second Number"/>
+                <apex:inputText label="Enter Third Number"/>
+                <apex:inputText label="Enter 100th Number"/>
+                
+                <apex:commandButton Value="Calculate"/>
+                <apex:outputText label="The Result is
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>
